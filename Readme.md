@@ -12,17 +12,43 @@ The endpoint is restricted to authenticated users, the server checks the validit
 
 ## Prerequisites
 Make sure you have installed all of the following prerequisites on your development machine:
-* Node.js - [Download & Install Node.js](http://www.nodejs.org/download/) and the npm package manager. If you encounter any problems, you can also use this [GitHub Gist](https://gist.github.com/isaacs/579814) to install Node.js.
-* Express - Express is a lightweight platform for building web apps using NodeJS. It helps organize web apps on the server side: Router, Handling Requests, Application Settings, Middleware, etc. The best way to understand express is through its [Official Website](http://expressjs.com/).
+* Node.js - [Download & Install Node.js](http://www.nodejs.org/download/) and the npm package manager.
+* Nodemon - Nodemon is a utility that will monitor for any changes in your source and automatically restart your server. Perfect for development. [Official Website](http://nodemon.io/).
 
 ```bash
-$ npm install express
+$ npm install -g nodemon
 ```
+
+## Application Requirements
+* Express - Express is a lightweight platform for building web apps using NodeJS. It helps organize web apps on the server side: Router, Handling Requests, Application Settings, Middleware, etc. The best way to understand express is through its [Official Website](http://expressjs.com/).
 * jwt-simple - jwt-simple is a module to generate, encode and decode, JSON Web Tokens.[Official Website](https://www.npmjs.com/package/jwt-simple).
 
 ## Setup the project
 
+Download the project:
 
+```bash
+$ git init
+```
+
+```bash
+$ git clone https://github.com/marceloquirozfrias/javascript-backend.git
+```
+
+All Node applications will start with a package.json file so let’s begin with that.
+
+```bash
+$ npm install
+```
+
+Then we need start the server:
+
+```bash
+$ nodemon server.js
+```
+
+If you need a client, I recommend the frontend part of this example:
+[frontend] (https://github.com/marceloquirozfrias/javascript-frontend)
 
 ##Further Reading
 ### BackEnd:
