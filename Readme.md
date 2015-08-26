@@ -51,8 +51,5 @@ If you need a client, I recommend the frontend part of this example:
 [frontend] (https://github.com/marceloquirozfrias/javascript-frontend)
 
 ##Further Reading
-### BackEnd:
 * [Architecting a Secure RESTful Node.js app] (http://thejackalofjavascript.com/architecting-a-restful-node-js-app/)
 
-> **Note:**
-> This example to be continued ...
