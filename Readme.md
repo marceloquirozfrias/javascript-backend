@@ -52,4 +52,5 @@ If you need a client, I recommend the frontend part of this example:
 
 ##Further Reading
 * [Architecting a Secure RESTful Node.js app] (http://thejackalofjavascript.com/architecting-a-restful-node-js-app/)
+* [AngularJs FrontEnd Single Page Application] (https://github.com/marceloquirozfrias/javascript-frontend)
 
