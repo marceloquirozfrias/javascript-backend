@@ -5,7 +5,7 @@
 This repo contains an example of NodeJs BackEnd Restful Server.
 
 ## Purpose
-The main goal is to learn how to build an simple token-based authentication and authorization mecanism with AngularJS and a RESTful api running on a Node.js server.
+The main goal is to learn how to build an RESTful api with a simple token-based authentication and authorization mecanism running on a Node.js server.
 
 When a user sends his credentials, the Node.js server checks that they are correct and answers with a unique token built with the user informations.
 The endpoint is restricted to authenticated users, the server checks the validity of the token and returns the data if the token is valid or a status error code.
